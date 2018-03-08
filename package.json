@@ -1,0 +1,22 @@
+{
+  "name": "rata",
+  "version": "0.0.1",
+  "description": "Tidy up your string list",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --presets babel-preset-es2015 -d dist",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "tidy",
+    "rata",
+    "string"
+  ],
+  "author": "indmind",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
